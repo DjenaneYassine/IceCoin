@@ -1,5 +1,8 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+#coming_soon:
+#   path: /
+#   controller: App\Controller\ComingSoonController::index
+
+coming_soon:
+    path: /
+    controller: App\Controller\ComingSoonController::index
+
